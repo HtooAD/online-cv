@@ -1,268 +1,139 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: True
+    education: True
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Htoo Aeindaray
+    tagline: Infrastructure Engineer
+    avatar: profile.png
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    email: htooaeindaray@gmail.com
+    phone: +66 806277494
+    timezone: Bangkok, Thailand (GMT+7)
+    citizenship: Myanmar
+    linkedin: HtooAeindaray
+    github: HtooAD
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+        - idiom: Burmese
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have over 10 years of experience in managing on-premise and cloud infrastructure, with a focus 
+      on automation, CI/CD pipelines, and ensuring high availability. 
+      
+      Currently, I work at Opn as an Infrastructure Engineer, specializing in Site Reliability Engineering (SRE) 
+      and DevOps. I am skilled in AWS, Kubernetes, Terraform, Ansible, CICD, and monitoring systems.
+      I have successfully designed scalable cloud architectures, maintained compliance with standards like PCI-DSS, 
+      and led infrastructure automation projects. I also have experience in managing teams and projects to meet key goals.
+      
+      I am certified as an AWS Solutions Architect, Azure Solutions Architect, and Certified Kubernetes Administrator (CKA), 
+      and I’m excited to continue applying my skills in cloud and infrastructure roles.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor of Engineering in Electronics & Communication
+        university: Myanmar Technological University
+        time: 2007 - 2012
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Major in Electronics & Communication Engineering.
+      - degree: Diploma in Project Management
+        university: ABE, UK 
+        time: 2019 - 2020
+      - degree: Diploma in Business English
+        university: ABE, UK 
+        time: 2019 - 2020
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Infrastructure Engineer
+        time: 05/2022 - Current
+        company: Opn, Bangkok Thailand
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Implemented and maintained production and staging infrastructure on AWS and EKS clusters.
+          - Utilized Terraform and Ansible to manage the entire infrastructure as code.
+          - Managed CI/CD pipelines and collaborated with developers on application deployments.
+          - Oversaw AWS resource management and cost optimization for the entire infrastructure.
+          - Conducted on-premises data center migration to the cloud for Visa and Mastercard networks.
+          - Maintain and upgraded the software lifecycle for EKS, Istio, Flux, Graylog, Datadog, and all Windows and Ubuntu VMs and AWS instances.
+          - Managed log monitoring using Datadog and Graylog, setting up alerts for on-call emergency support.
+          - Ensured PCI-DSS compliance for internal infrastructure security.
+
+
+      - role: Platform Engineer
+        time: 06/2018 - 04/2022
+        company: Nokia, Yangon Myanmar
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Installation and onboarding of Nokia Cloud hardware and OpenStack software for customer data centers.
+          - Designed HLD and LLD desing for Customer Datacenter Architecher 
+          - Managed Nokia Cloud projects and operations for telecom and customer data centers.
+          - Coordinated cloud care operations, ensuring smooth communication and project completion.
+          - Made critical decisions on data center architecture to enhance efficiency and cost-effectiveness.
+          - Plan Cloud Platform teams in implementing project activities and change requests.
+          - Provided leadership to sub-contractors, ensuring compliance with HSE policies and SLAs/OLAs.
+
+      - role: Field Project Engineer
+        time: 07/2014 - 05/2018
+        company: Nokia, Yangon Myanmar
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Managed field surveys, installations, and commissioning of on-field and data centers networks.
+          - Executed technical tasks for network and system integration.
+          - Supervised contractors, provided safety training, and ensured high HSE standards.
+
+      - role: RAN Engineer
+        time: 07/2013 - 06/2014
+        company: Huawei, Yangon Myanmar
+        details: |
+          - Configured, troubleshooted, and maintained BSC/RNC BTS/Node B services.
+          - Conducted BSC cutover, rehoming, and RNC integration for customer projects.
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    title: Certifications
+    list:
+      - name: AWS Solutions Architect Associate
+        start: 2024
+      - name: Microsoft Azure Solution Architect Expert
+        start: 2022
+      - name: Microsoft Azure Administrator Associate
+        start: 2022
+      - name: CKA Certified Kubernetes Administrator
+        start: 2026
+      - name: Oracle Cloud Infrastructure Associate
+        start: 2022
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills & Proficiency
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: AWS
+        level: 80%
+      - name: Kubernetes & Docker
+        level: 80%
+      - name: Terraform & Ansible
+        level: 80%
+      - name: CI/CD & Automation
+        level: 80%
+      - name: System Administration
+        level: 80%
+      - name: Networking & Security
+        level: 80%
+      - name: Data Center Infrastructure
+        level: 80%
+      - name: Telecom 3G 4G LTE 5G
+        level: 80%
+      - name: Project Management
+        level: 60%
+      - name: Azure
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by Htoo Aeindaray
