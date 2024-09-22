@@ -28,7 +28,7 @@ career-profile:
     title: Career Profile
     summary: |
       I have over 10 years of experience in managing on-premise and cloud infrastructure, with a focus 
-      on automation, CI/CD pipelines, and ensuring high availability. 
+      on automation, CI/CD pipelines, and ensuring high availability.
       
       Currently, I work at Opn as an Infrastructure Engineer, specializing in Site Reliability Engineering (SRE) 
       and DevOps. I am skilled in AWS, Kubernetes, Terraform, Ansible, CICD, and monitoring systems.
@@ -36,7 +36,7 @@ career-profile:
       and led infrastructure automation projects. I also have experience in managing teams and projects to meet key goals.
       
       I am certified as an AWS Solutions Architect, Azure Solutions Architect, and Certified Kubernetes Administrator (CKA), 
-      and I’m excited to continue applying my skills in cloud and infrastructure roles.
+      and I am excited to continue applying my skills in cloud and infrastructure roles.
 
 education:
     title: Education
