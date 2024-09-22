@@ -64,7 +64,7 @@ experiences:
           - Managed CI/CD pipelines and collaborated with developers on application deployments.
           - Oversaw AWS resource management and cost optimization for the entire infrastructure.
           - Conducted on-premises data center migration to the cloud for Visa and Mastercard networks.
-          - Maintain and upgraded the software lifecycle for EKS, Istio, Flux, Graylog, Datadog, and all Windows and Ubuntu VMs and AWS instances.
+          - Maintain and upgraded the software lifecycle for EKS, Istio, Flux, Graylog, Datadog, VM instances.
           - Managed log monitoring using Datadog and Graylog, setting up alerts for on-call emergency support.
           - Ensured PCI-DSS compliance for internal infrastructure security.
 
@@ -124,7 +124,7 @@ skills:
         level: 80%
       - name: Networking & Security
         level: 80%
-      - name: Data Center Infrastructure
+      - name: DataCenter Infrastructure
         level: 80%
       - name: Telecom 3G 4G LTE 5G
         level: 80%
