@@ -24,17 +24,16 @@ sidebar:
         - idiom: Burmese
           level: Native
 
+
 career-profile:
     title: Career Profile
     summary: |
       I have over 10 years of experience in managing on-premise and cloud infrastructure, with a focus 
       on automation, CI/CD pipelines, and ensuring high availability.
-      
       Currently, I work at Opn as an Infrastructure Engineer, specializing in Site Reliability Engineering (SRE) 
       and DevOps. I am skilled in AWS, Kubernetes, Terraform, Ansible, CICD, and monitoring systems.
       I have successfully designed scalable cloud architectures, maintained compliance with standards like PCI-DSS, 
       and led infrastructure automation projects. I also have experience in managing teams and projects to meet key goals.
-      
       I am certified as an AWS Solutions Architect, Azure Solutions Architect, and Certified Kubernetes Administrator (CKA), 
       and I am excited to continue applying my skills in cloud and infrastructure roles.
 
@@ -69,7 +68,6 @@ experiences:
           - Managed log monitoring using Datadog and Graylog, setting up alerts for on-call emergency support.
           - Ensured PCI-DSS compliance for internal infrastructure security.
 
-
       - role: Platform Engineer
         time: 06/2018 - 04/2022
         company: Nokia, Yangon Myanmar
@@ -89,6 +87,20 @@ experiences:
           - Managed field surveys, installations, and commissioning of on-field and data centers networks.
           - Executed technical tasks for network and system integration.
           - Supervised contractors, provided safety training, and ensured high HSE standards.
+
+      - role: RAN Engineer
+        time: 07/2013 - 06/2014
+        company: Huawei, Yangon Myanmar
+        details: |
+          - Configured, troubleshooted, and maintained BSC/RNC BTS/Node B services.
+          - Conducted BSC cutover, rehoming, and RNC integration for customer projects.
+
+      - role: RAN Engineer
+        time: 07/2013 - 06/2014
+        company: Huawei, Yangon Myanmar
+        details: |
+          - Configured, troubleshooted, and maintained BSC/RNC BTS/Node B services.
+          - Conducted BSC cutover, rehoming, and RNC integration for customer projects
 
       - role: RAN Engineer
         time: 07/2013 - 06/2014
