@@ -28,14 +28,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I have over 10 years of experience in managing on-premise and cloud infrastructure, with a focus 
-      on automation, CI/CD pipelines, and ensuring high availability.
-      Currently, I work at Opn as an Infrastructure Engineer, specializing in Site Reliability Engineering (SRE) 
-      and DevOps. I am skilled in AWS, Kubernetes, Terraform, Ansible, CICD, and monitoring systems.
-      I have successfully designed scalable cloud architectures, maintained compliance with standards like PCI-DSS, 
-      and led infrastructure automation projects. I also have experience in managing teams and projects to meet key goals.
-      I am certified as an AWS Solutions Architect, Azure Solutions Architect, and Certified Kubernetes Administrator (CKA), 
-      and I am excited to continue applying my skills in cloud and infrastructure roles.
+      Experienced Infrastructure Engineer with 11+ years in on-premise and cloud infrastructure management. 
+      Currently a Site Reliability Engineer at Opn in Bangkok, specializing in AWS and EKS, and leveraging Terraform and Ansible for infrastructure as code to ensure high service availability. Expertise includes optimizing data centers, AWS resources, and ensuring PCI-DSS compliance. 
+      Previously, I led Teleco-Cloud infrastructure projects at Nokia in Yangon. I hold multiple certifications, including AWS Solutions Architect Associate and CKA Certified Kubernetes Administrator. Passionate about driving continuous improvement and collaboration in cloud and infrastructure roles.
 
 education:
     title: Education
@@ -72,20 +67,21 @@ experiences:
         time: 06/2018 - 04/2022
         company: Nokia, Yangon Myanmar
         details: |
-          - Installation and onboarding of Nokia Cloud hardware and OpenStack software for customer data centers.
-          - Designed HLD and LLD desing for Customer Datacenter Architecher 
-          - Managed Nokia Cloud projects and operations for telecom and customer data centers.
-          - Coordinated cloud care operations, ensuring smooth communication and project completion.
-          - Made critical decisions on data center architecture to enhance efficiency and cost-effectiveness.
-          - Plan Cloud Platform teams in implementing project activities and change requests.
+          - Installation and onboarding of Nokia Teleco-Cloud hardware and OpenStack software for customer data centers ( Telenor, Oodreoo ).
+          - Designed HLD and LLD desing for Customer Datacenter Architecher.
+          - Managed Nokia Cloud Platform and operations for on-premises and Hybrid Cloud Projects.
+          - Led hardware deployments, managed vendor relationships, and contributed to data center development.
+          - Coordinated maintenance operations, optimized hardware and software configurations, and effectively resolved system and hardware issues.
+          - Planned and enhanced telecommunications systems, monitored their performance, and developed upgrade plans for networks and equipment.
           - Provided leadership to sub-contractors, ensuring compliance with HSE policies and SLAs/OLAs.
 
       - role: Field Project Engineer
         time: 07/2014 - 05/2018
         company: Nokia, Yangon Myanmar
         details: |
-          - Managed field surveys, installations, and commissioning of on-field and data centers networks.
-          - Executed technical tasks for network and system integration.
+          - Managed the installation and maintenance of various telecommunications technologies, including 2G,
+            3G, 4G, LTE, IBS, IP and FTTH services for projects.
+          - Executed technical tasks for network and system integration of 3G 4G LTE Network.
           - Supervised contractors, provided safety training, and ensured high HSE standards.
 
       - role: RAN Engineer
